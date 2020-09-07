@@ -1,0 +1,273 @@
+
+
+
+html,body{
+    overflow-x:hidden ;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+.navbar-brand img{
+    height: 3.5rem;
+}
+
+.navbar {
+
+    background:white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+.nav-item nav-link{
+    font-family: 'Roboto', sans-serif;
+}
+.nav-item{
+    padding: .4rem;
+}
+
+.nav-link{
+    color: black!important;
+}
+
+.nav-link.active,.nav-link:hover{
+    color: #396AFC!important;
+}
+
+.d-block{
+    height: 500px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 30%;
+    transform: translateX(-56%);
+
+}
+.small-container{
+
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background:white;
+}
+.col-3{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    text-align: center;
+}
+.col-3 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+h4{
+    color:#555;
+    font-weight: normal;
+
+}
+
+.col-3 p{
+    font-size: 14px;
+
+}
+
+.rating .fa{
+    color: coral;
+}
+
+.col-3:hover{
+    transform:translateY(-5px);
+}
+
+.footer{
+    background: black;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    height: 500px;
+}
+.footer p{
+    color: #8a8a8a;
+
+}
+.footer h3{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.footer.col-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+
+.single-product{
+    margin-top: 80px;
+
+
+}
+
+.single-product .col-6 img{
+    padding: 0;
+
+}
+.single-product .col-6{
+    padding: 20px;
+}
+.single-product h4{
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+     cursor: pointer;
+}
+
+.infor{
+    padding-top: 20px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+
+}
+
+.modal-body {
+    padding: 1rem;
+}
+
+.modal-footer {
+    display: flex;
+    border-top: 1px solid #aaaaaa;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-top: 1px solid #aaaaaa;
+    padding: 1rem;
+}
+
+.modal-footer>:not(:first-child) {
+    margin-left: .25rem;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: all .2s ease-in-out;
+}
+
+.btn-secondary {
+    color: #292b2c;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+
+.modal-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 1rem;
+}
+
+h5.modal-title {
+    font-size: 1.5rem;
+}
+
+.close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#cart {
+    font-size: 15px;
+    color: #fff;
+    background: #c7b200;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 1rem;
+    padding: 12px;
+    cursor: pointer;
+}
+
+#cart:hover {
+    border-color: #fff;
+}
+
